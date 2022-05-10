@@ -1,0 +1,192 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 1600px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 44px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    margin-top: 0;
+}
+
+.header {
+    display: -webkit-inline-box;
+    padding: 25px 0px 25px 215px;
+}
+
+.header a {
+    text-decoration: none;
+    font-size: 14px;
+    vertical-align: sub;
+}
+
+a.logo {
+    color: black;
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+}
+
+span.web {
+    color: #2196F3;
+}
+
+nav.menu {
+    margin-left: 95px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: -webkit-inline-box;
+    font-size: 14px;
+    font-weight: 500;
+    }
+
+li {
+    margin-right: 50px;
+}
+
+li>a {
+    color: black;
+}
+
+li>a:hover {
+    color: #2196F3;
+}
+
+.mail {
+    margin-left: 330px;
+    margin-right: 50px;
+    color: #2196F3;
+}
+
+.tel {
+    color: #757575;
+}
+.banner {
+    background-color: #2F303A;
+    padding: 200px 450px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 44px;
+    font-weight: 700;
+}
+
+.button {
+    color: #ffffff;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+    font-size: 16px;
+    font-weight: 700;
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    border: none;
+}
+
+.qualities {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    padding: 95px 0;
+}
+
+.qualities .block {
+    text-align: left;
+    font-size: 14px;
+    color: #757575;
+    font-weight: 400;
+    padding-right: 25px;
+}
+
+.block span {
+    color: #212121;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.about {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.about img {
+    margin: 0 15px;
+}
+
+.person {
+    display: -webkit-inline-box;
+}
+
+.block {
+    margin: 0 15px;
+    background-color: white;
+    text-align: center;
+}
+
+.team {
+    margin: 0 auto;
+    text-align: center;
+    background-color: #F5F4FA;
+    padding: 95px 0;
+}
+
+p.name {
+    padding-top: 14px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #212121;
+}
+
+p.position {
+    font-weight: 400;
+    color: #757575;
+    margin: 9px 0 30px 0;
+}
+
+.footer {
+    background-color: #2F303A;
+    padding: 60px 200px;
+}
+
+a.logofooter {
+    color: #FFFFFF;
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    padding-bottom: 20px;
+}
+
+address {
+    display: grid;
+    margin-top: 20px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+address p {
+    margin: 0;
+}
+
+address a {
+    margin-top: 9px;
+    color: #ffffff;
+    text-decoration: none;
+    opacity: 0.6;
+}
