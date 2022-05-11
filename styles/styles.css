@@ -8,7 +8,7 @@ h1 {
     font-size: 44px;
     font-weight: 900;
     font-family: 'Roboto', sans-serif;
-    line-height: 60px;
+    line-height: 1.3637;
     letter-spacing: 0.06em;
 }
 
@@ -17,6 +17,8 @@ h2 {
     font-weight: 700;
     margin-bottom: 50px;
     margin-top: 0;
+    line-height: 1.172;
+    letter-spacing: 0.03em;
 }
 
 .header {
@@ -80,11 +82,15 @@ a {
 }
 .banner {
     background-color: #2F303A;
-    padding: 200px 450px;
+    padding: 180px 450px;
     text-align: center;
     color: #FFFFFF;
     font-size: 44px;
     font-weight: 700;
+}
+
+.banner h1 {
+    margin: 29px 0;
 }
 
 .banner button {
@@ -100,7 +106,7 @@ a {
     width: 1200px;
     margin: 0 auto;
     display: flex;
-    padding: 95px 0;
+    padding: 94px 0;
 }
 
 .qualities .block {
@@ -108,13 +114,16 @@ a {
     font-size: 14px;
     color: #757575;
     font-weight: 400;
-    padding-right: 25px;
+    padding-right: 30px;
+    line-height: 1.786;
+    letter-spacing: 0.03em;
 }
 
 .block span {
     color: #212121;
     text-transform: uppercase;
     font-weight: 700;
+    line-height: 1.172;
 }
 
 .about {
@@ -140,11 +149,15 @@ a {
     margin: 0 auto;
     text-align: center;
     background-color: #F5F4FA;
-    padding: 95px 0;
+    padding: 94px 0;
+}
+
+.team .block {
+    box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
 }
 
 p.name {
-    padding-top: 14px;
+    margin-top: 30px;
     font-size: 16px;
     font-weight: 500;
     color: #212121;
@@ -153,7 +166,8 @@ p.name {
 p.position {
     font-weight: 400;
     color: #757575;
-    margin: 9px 0 30px 0;
+    margin: 0px 0 30px 0;
+    line-height: 1.172;
 }
 
 .footer {
@@ -161,13 +175,14 @@ p.position {
     padding: 60px 215px;
 }
 
-a.logofooter {
+a.logo-footer {
     color: #FFFFFF;
     font-size: 26px;
     font-weight: 700;
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
     padding-bottom: 20px;
+    line-height: 1.174;
 }
 
 address {
@@ -176,7 +191,8 @@ address {
     color: #FFFFFF;
     font-style: normal;
     font-size: 14px;
-    font-weight: 400;
+    letter-spacing: 0.03em;
+    line-height: 1.714;
 }
 
 address p {
