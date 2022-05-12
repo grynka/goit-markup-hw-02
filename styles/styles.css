@@ -119,6 +119,10 @@ a {
     letter-spacing: 0.03em;
 }
 
+.qualities h2 {
+    display: none;
+}
+
 .quality h3 {
     color: #212121;
     text-transform: uppercase;
@@ -159,6 +163,11 @@ section.about {
     padding: 94px 0;
 }
 
+.team>ul {
+    width: 1200px;
+    margin: 0 auto;
+}
+
 .team .block {
     box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
 }
@@ -178,7 +187,7 @@ p.position {
 
 .footer {
     background-color: #2F303A;
-    padding: 60px 215px;
+    padding: 60px 0 51px 215px;
 }
 
 a.logo-footer {
@@ -202,7 +211,7 @@ address {
 }
 
 address p {
-    margin: 0;
+    margin: 0 0 9px 0;
 }
 
 address a {
@@ -225,7 +234,7 @@ address a {
 ul.filter {
     justify-content: center;
     display: flex;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
     padding-top: 94px;
 }
 
@@ -261,12 +270,11 @@ button:hover {
     
 }
 
-p.title {
-    margin: 20px 0 0 24px;
+h3.title {
+    margin: 20px 24px 0;
+    line-height: 2;
     font-size: 18px;
     font-weight: 700;
-    color: #212121;
-    line-height: 2;
     letter-spacing: 0.06em;
 }
 
