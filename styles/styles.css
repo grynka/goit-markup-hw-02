@@ -46,6 +46,10 @@ a.logo {
     line-height: 1.1738;
 }
 
+a.logo:hover {
+    color: black;
+}
+
 span.web {
     color: #2196F3;
 }
