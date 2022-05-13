@@ -256,6 +256,7 @@ ul.filter {
     display: flex;
     margin-bottom: 20px;
     padding-top: 94px;
+    width: 1200px;
 }
 
 button {
@@ -290,7 +291,11 @@ button:hover {
     
 }
 
-h3.title {
+.portfolio h1 {
+    display: none;
+}
+
+h2.title {
     margin: 20px 24px 0;
     line-height: 2;
     font-size: 18px;
