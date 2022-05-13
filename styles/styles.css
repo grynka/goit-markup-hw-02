@@ -1,6 +1,5 @@
 body {
     font-family: 'Roboto', sans-serif;
-    width: 1600px;
     margin: 0 auto;
     color: #212121;
     }
@@ -23,9 +22,16 @@ h2 {
 }
 
 .header {
-    display: -webkit-inline-box;
-    padding: 24px 0px 24.49px 215px;
+    display: flex;
+    padding: 24px 0px 24.49px 0;
     border-bottom: solid 1px #ECECEC;
+    margin: 0 auto;
+}
+
+nav {
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
 }
 
 .header a {
@@ -38,25 +44,23 @@ h2 {
 }
 
 a.logo {
-    color: black;
+    color: #000000;
     font-size: 26px;
     font-weight: 700;
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
     line-height: 1.1738;
+    margin-right: 93px;
 }
 
 a.logo:hover {
-    color: black;
+    color: #000000;
 }
 
 span.web {
     color: #2196F3;
 }
 
-nav.menu {
-    margin-left: 95px;
-}
 
 nav a {
     color: #212121;
@@ -77,8 +81,13 @@ a:hover, a:focus {
 }
 
 .mail {
-    margin-left: 330px;
-    margin-right: 50px;
+    margin-left: 280px;
+        color: #757575;
+}
+
+.tel {
+    margin: 0;
+    color: #757575;
 }
 
 a {
@@ -106,6 +115,10 @@ a {
     box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
 }
 
+.banner button:hover {
+    background-color: #188CE8;
+}
+
 .qualities {
     width: 1170px;
     margin: 0 auto;
@@ -117,7 +130,6 @@ a {
     text-align: left;
     font-size: 14px;
     color: #757575;
-    font-weight: 400;
     padding-right: 35px;
     line-height: 1.786;
     letter-spacing: 0.03em;
@@ -183,7 +195,6 @@ h3.name {
 }
 
 p.position {
-    font-weight: 400;
     color: #757575;
     margin: 0px 0 30px 0;
     line-height: 1.172;
@@ -191,7 +202,12 @@ p.position {
 
 .footer {
     background-color: #2F303A;
-    padding: 60px 0 51px 215px;
+    padding: 60px 0 51px 0;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
 }
 
 a.logo-footer {
@@ -205,7 +221,7 @@ a.logo-footer {
 }
 
 address {
-    display: grid;
+    display: flow-root;
     margin-top: 20px;
     color: #FFFFFF;
     font-style: normal;
