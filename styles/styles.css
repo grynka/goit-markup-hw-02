@@ -3,6 +3,9 @@
     --brand-color-blue: #2196F3;
     --brand-color-border: #ECECEC;
     --brand-color-link: #757575;
+    --brand-color-white: #FFFFFF;
+    --brand-color-black: #000000;
+    --brand-color-background: #2F303A;
 }
 
 body {
@@ -51,7 +54,7 @@ nav {
 }
 
 a.logo {
-    color: #000000;
+    color: var(--brand-color-black);
     font-size: 26px;
     font-weight: 700;
     font-family: 'Raleway', sans-serif;
@@ -61,7 +64,7 @@ a.logo {
 }
 
 a.logo:hover {
-    color: #000000;
+    color: #var(--brand-color-black);
 }
 
 span.web {
@@ -101,10 +104,10 @@ a {
     color: var(--brand-color-link);
 }
 .banner {
-    background-color: #2F303A;
+    background-color: var(--brand-color-background);
     padding: 180px 450px;
     text-align: center;
-    color: #FFFFFF;
+    color: var(--brand-color-white);
     font-size: 44px;
     font-weight: 700;
 }
@@ -115,7 +118,7 @@ a {
 
 .banner button {
     background-color: var(--brand-color-blue);
-    color: #ffffff;
+    color: var(--brand-color-white);
     padding: 10px 39px;
     font-weight: 700;
     line-height: 1.875;
@@ -175,7 +178,7 @@ section.about {
 
 .block {
     margin: 0 15px;
-    background-color: white;
+    background-color: var(--brand-color-white);
     text-align: center;
 }
 
@@ -208,7 +211,7 @@ p.position {
 }
 
 .footer {
-    background-color: #2F303A;
+    background-color: var(--brand-color-background);
     padding: 60px 0 51px 0;
 }
 
@@ -218,7 +221,7 @@ p.position {
 }
 
 a.logo-footer {
-    color: #FFFFFF;
+    color: var(--brand-color-white);
     font-size: 26px;
     font-weight: 700;
     font-family: 'Raleway', sans-serif;
@@ -230,7 +233,7 @@ a.logo-footer {
 address {
     display: flow-root;
     margin-top: 20px;
-    color: #FFFFFF;
+    color: var(--brand-color-white);
     font-style: normal;
     font-size: 14px;
     letter-spacing: 0.03em;
@@ -243,7 +246,7 @@ address p {
 
 address a {
     margin-top: 9px;
-    color: #ffffff;
+    color: var(--brand-color-white);
     text-decoration: none;
     opacity: 0.6;
 }
@@ -289,7 +292,7 @@ button:focus-within {
 
 button:hover {
     background-color: var(--brand-color-blue);
-    color: #FFFFFF;
+    color: var(--brand-color-white);
 }
 
 .project {
