@@ -1,7 +1,14 @@
+:root {
+    --brand-color: #212121;
+    --brand-color-blue: #2196F3;
+    --brand-color-border: #ECECEC;
+    --brand-color-link: #757575;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0 auto;
-    color: #212121;
+    color: var(--brand-color);
     }
 
 h1 {
@@ -24,7 +31,7 @@ h2 {
 .header {
     display: flex;
     padding: 24px 0px 24.49px 0;
-    border-bottom: solid 1px #ECECEC;
+    border-bottom: solid 1px var(--brand-color-border);
     margin: 0 auto;
 }
 
@@ -58,12 +65,12 @@ a.logo:hover {
 }
 
 span.web {
-    color: #2196F3;
+    color: var(--brand-color-blue);
 }
 
 
 nav a {
-    color: #212121;
+    color: var(--brand-color);
     margin-right: 50px;
     font-weight: 500;
 }
@@ -77,21 +84,21 @@ ul {
 
 
 a:hover, a:focus {
-    color: #2196F3;
+    color: var(--brand-color-blue);
 }
 
 .mail {
     margin-left: 280px;
-        color: #757575;
+        color: var(--brand-color-link);
 }
 
 .tel {
     margin: 0;
-    color: #757575;
+    color: var(--brand-color-link);
 }
 
 a {
-    color: #757575;
+    color: var(--brand-color-link);
 }
 .banner {
     background-color: #2F303A;
@@ -107,7 +114,7 @@ a {
 }
 
 .banner button {
-    background-color: #2196F3;
+    background-color: var(--brand-color-blue);
     color: #ffffff;
     padding: 10px 39px;
     font-weight: 700;
@@ -129,7 +136,7 @@ a {
 .quality {
     text-align: left;
     font-size: 14px;
-    color: #757575;
+    color: var(--brand-color-link);
     padding-right: 35px;
     line-height: 1.786;
     letter-spacing: 0.03em;
@@ -140,7 +147,7 @@ a {
 }
 
 .quality h3 {
-    color: #212121;
+    color: var(--brand-color);
     text-transform: uppercase;
     font-weight: 700;
     line-height: 1.172;
@@ -195,7 +202,7 @@ h3.name {
 }
 
 p.position {
-    color: #757575;
+    color: var(--brand-color-link);
     margin: 0px 0 30px 0;
     line-height: 1.172;
 }
@@ -260,7 +267,7 @@ ul.filter {
 }
 
 button {
-    color: #212121;
+    color: var(--brand-color);
     background-color: #F5F4FA;
     border-radius: 4px;
     border: none;
@@ -281,7 +288,7 @@ button:focus-within {
 }
 
 button:hover {
-    background-color: #2196F3;
+    background-color: var(--brand-color-blue);
     color: #FFFFFF;
 }
 
